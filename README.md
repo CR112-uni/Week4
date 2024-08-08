@@ -8,13 +8,13 @@ ____
 2. Navigate to the *week4-workshop* directory - `cd week4workshop`.
 3. Create a new Angular project called *week4tut* - `ng new week4tut`.
 4. Navigate to the Angular project directory - `cd week4tut`.
-5. Create a new Angular component called *login* - `ng generate component login`
-6. Create a new Angular component called *account* - `ng generate component account`
+5. Create a new Angular component called *login* - `ng generate component login`.
+6. Create a new Angular component called *account* - `ng generate component account`.
 ____
 
 ### NPM Commands - Installing Modules
 ____
-1. Using NPM, install the Bootstrap framework - `npm install bootstrap --save`
+1. Using NPM, install the Bootstrap framework - `npm install bootstrap --save`.
 ____
 ### Git Commands
 ____
@@ -24,6 +24,6 @@ ____
 4. Add all files to be tracked - `git add -A`.
 5. Commit all local changes with the message "Week 4 Tutorial Setup" - `git commit -m "Week 4 Tutorial Setup"`.
 6. Add an alias for origin to your remote repository - `git remote add origin [url to your repository]`.
-7. Add a new main branch to your repository - `git branch main`
+7. Add a new main branch to your repository - `git branch main`.
 8. Push your local repository to the remote repository - `git push -f -u origin main`.
 ____
