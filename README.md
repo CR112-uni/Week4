@@ -1,27 +1,29 @@
-# Week4tut
+# 3813ICT Lab 4 - Working with Angular
+Please follow the following instructions to set up and install this Angular project.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+### Angular Commands - In Node
 
-## Development server
+____
+1. Create a new local directory called *week4-workshop* -  `mkdir week4workshop`.
+2. Navigate to the *week4-workshop* directory - `cd week4workshop`.
+3. Create a new Angular project called *week4tut* - `ng new week4tut`.
+4. Navigate to the Angular project directory - `cd week4tut`.
+5. Create a new Angular component called *login* - `ng generate component login`
+6. Create a new Angular component called *account* - `ng generate component account`
+____
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### NPM Commands - Installing Modules
+____
+1. Using NPM, install the Bootstrap framework - `npm install bootstrap --save`
+____
+### Git Commands
+____
+1. On Github, create a new Git repository called *Week4*.
+2. Navigate to your Angular project directory. 
+3. In the command line, initialise a local git repository for your Angular application - `git init`.
+4. Add all files to be tracked - `git add -A`.
+5. Commit all local changes with the message "Week 4 Tutorial Setup" - `git commit -m "Week 4 Tutorial Setup"`.
+6. Add an alias for origin to your remote repository - `git remote add origin [url to your repository]`.
+7. Add a new main branch to your repository - `git branch main`
+8. Push your local repository to the remote repository - `git push -f -u origin main`.
+____
