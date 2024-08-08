@@ -24,6 +24,6 @@ ____
 4. Add all files to be tracked - `git add -A`.
 5. Commit all local changes with the message "Week 4 Tutorial Setup" - `git commit -m "Week 4 Tutorial Setup"`.
 6. Add an alias for origin to your remote repository - `git remote add origin [url to your repository]`.
-7. Add a new main branch to your repository - `git branch main`.
+7. Add a new main branch to your local repository - `git branch main`.
 8. Push your local repository to the remote repository - `git push -f -u origin main`.
 ____
